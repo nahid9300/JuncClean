@@ -37,8 +37,6 @@ namespace JunkClean
                         }
                         catch
                         {
-                            // Log or handle the exception as needed
-                            //Console.WriteLine($"Unable to delete file: {file.FullName}. Exception: {ex.Message}");
                         }
                     }
                     foreach (DirectoryInfo dir in di.EnumerateDirectories())
@@ -49,8 +47,6 @@ namespace JunkClean
                         }
                         catch
                         {
-                            // Log or handle the exception as needed
-                            //Console.WriteLine($"Unable to delete directory: {dir.FullName}. Exception: {ex.Message}");
                         }
                     }
                 }
